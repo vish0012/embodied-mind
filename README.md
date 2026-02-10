@@ -7,9 +7,6 @@
 
 EmbodiedMind is a research framework for building **multimodal embodied agents** that perceive, reason, plan, and act in open-ended 3D environments. Built on [MineDojo](https://minedojo.org/) (Minecraft), it combines Vision-Language Models (VLMs) for grounded perception, LLMs for hierarchical task planning, and an episodic memory system for experience-driven adaptation.
 
-<p align="center">
-  <img src="assets/architecture.png" width="700" alt="EmbodiedMind Architecture"/>
-</p>
 
 ## 🎯 Key Features
 
@@ -109,17 +106,14 @@ python -m embodied_mind.visualize \
 
 ## 📊 Benchmark Results
 
-Performance on MineDojo Programmatic Tasks (5 episodes each):
+## 📊 Benchmark Results
 
-| Task | Random | ReAct (GPT-4o) | **EmbodiedMind** | EmbodiedMind + Memory |
-|------|--------|----------------|------------------|-----------------------|
-| Harvest Wool | 0% | 40% | **60%** | **80%** |
-| Harvest Milk | 0% | 20% | **40%** | **60%** |
-| Harvest Wood (64) | 5% | 30% | **45%** | **55%** |
-| Survive 5 Days | 10% | 50% | **65%** | **70%** |
-| Craft Stone Pickaxe | 0% | 15% | **25%** | **40%** |
+🚧 **Work in Progress** — Evaluation experiments are currently being run on MineDojo Programmatic Tasks (Harvest, Survival, Tech Tree). Results will be updated here as they become available.
 
-*Memory-augmented agent shows consistent improvement through experience accumulation across episodes.*
+**Planned evaluation tasks:**
+- Harvest (Wool, Milk, Wood)
+- Survival (5-day, 10-day)
+- Tech Tree (Stone Pickaxe, Iron Pickaxe)
 
 ## 📁 Project Structure
 
