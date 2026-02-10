@@ -179,7 +179,7 @@ Rather than fine-tuning model weights, EmbodiedMind adapts through:
 
 ## 🤝 Contributing
 
-Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+Contributions are welcome! 
 
 ## 📄 License
 
