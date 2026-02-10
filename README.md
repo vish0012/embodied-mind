@@ -104,16 +104,10 @@ python -m embodied_mind.visualize \
     --show_plan
 ```
 
-## 📊 Benchmark Results
 
 ## 📊 Benchmark Results
 
 🚧 **Work in Progress** — Evaluation experiments are currently being run on MineDojo Programmatic Tasks (Harvest, Survival, Tech Tree). Results will be updated here as they become available.
-
-**Planned evaluation tasks:**
-- Harvest (Wool, Milk, Wood)
-- Survival (5-day, 10-day)
-- Tech Tree (Stone Pickaxe, Iron Pickaxe)
 
 ## 📁 Project Structure
 
